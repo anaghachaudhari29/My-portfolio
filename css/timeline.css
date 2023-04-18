@@ -92,12 +92,12 @@
     }
   
     /* Make sure that all arrows are pointing leftwards */
-    .timeline::before {
+   .timeline::before {
       left: 60px;
       border: medium solid white;
       border-width: 10px 10px 10px 0;
       border-color: transparent white transparent transparent;
-    }
+    } 
   
     /* Make sure all circles are at the same spot */
     .left::after,
