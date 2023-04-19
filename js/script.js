@@ -1,6 +1,6 @@
 // typing animation 
 var typed = new Typed(".typing",{
-    strings: ["","Associate Professor", "Academician", "Research Scholar"],
+    strings: ["","Associate Professor", "Academician", "Research Scholar","YouTuber"],
     typeSpeed:  100,
     BackSpeed: 60,
     loop: true
@@ -67,19 +67,19 @@ const nav = document.querySelector(".nav"),
                 }
            }
      }
-     document.querySelector(".hire-me").addEventListener("click",function()
-     {
-            const sectionIndex = this.getAttribute("data-section-index");
-         //    console.log(sectionIndex);
-            showSection(this);
-            updateNav(this);
-            removeBackSection();
-            addBackSection(sectionIndex);
-     })
 
-     const navTogglerBtn = document.querySelector(" .nav-toggler"),
-     aside = document.querySelector(" .aside");
-     navTogglerBtn.addEventListener("click",()=>
+    //  document.querySelector(".hire-me").addEventListener("click",function()
+    //  {
+    //         const sectionIndex = this.getAttribute("data-section-index");
+    //      //    console.log(sectionIndex);
+    //         showSection(this);
+    //         updateNav(this);
+    //         removeBackSection();
+    //         addBackSection(sectionIndex);
+    //  })
+
+     const navTogglerBtn = document.querySelector(".nav-toggler"),aside = document.querySelector(".aside");
+        navTogglerBtn.addEventListener("click",()=>
         {
           asideSectionTogglerBtn();
         })
