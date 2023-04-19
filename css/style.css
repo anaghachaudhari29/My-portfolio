@@ -1016,7 +1016,8 @@ h3.my-profession
 
      .research .container,
      .contribution .container,
-     .responsibilities .container
+     .responsibilities .container,
+     .acheivements .container
      {
         padding: 10%;
      }
