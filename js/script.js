@@ -1,8 +1,8 @@
 // typing animation 
 var typed = new Typed(".typing",{
-    strings: ["","Assistant Professor", "Academician", "Research Scholar"],
+    strings: ["","Assistant Professor", "Academician", "Research Scholar","Currently Pursuing Ph.D (IT), Universiti Teknologi PETRONAS [UTP], Malaysia"],
     typeSpeed:  100,
-    BackSpeed: 60,
+    BackSpeed: 80,
     loop: true
 })
 
