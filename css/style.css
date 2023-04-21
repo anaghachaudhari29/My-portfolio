@@ -100,7 +100,6 @@ ul{
          transform: translateX(0%);
     }
 }
-
 .hidden
 {
     display:none !important;
@@ -216,7 +215,6 @@ ul{
     text-transform: capitalize;
     transition: all 0.3s ease;
 }
-
 .aside .logo a
 {
     color: var(--text-black-900);
