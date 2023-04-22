@@ -75,9 +75,6 @@ ul{
     overflow-x:hidden;
     transition: all 0.3s ease;
 
-   
-
-
 }
 .section.back-section
 {
@@ -104,7 +101,6 @@ ul{
 {
     display:none !important;
 }
-
 
 .padd-15
 {
